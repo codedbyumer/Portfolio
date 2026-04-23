@@ -4,20 +4,20 @@
 // ============================================================
 
 export const personalInfo = {
-  name: 'Alex Morgan',
+  name: 'Muhammad Umer',
   initials: 'AM',
   tagline: 'I build things people love.',
   description:
     'I craft exceptional digital experiences — from pixel-perfect interfaces to robust backends. Turning complex problems into elegant, scalable solutions.',
   about:
-    "Hey — I'm Alex. A Full Stack Developer based in San Francisco, obsessed with building products that are fast, beautiful, and delightfully intuitive. I've shipped products used by thousands of users at startups and enterprises alike. When I'm not coding, I'm exploring design systems, contributing to open source, or mentoring junior devs.",
-  location: 'San Francisco, CA',
-  email: 'alex@morgan.dev',
-  phone: '+1 (415) 555-0190',
-  linkedin: 'https://linkedin.com/in/alexmorgan',
-  github: 'https://github.com/alexmorgan',
-  twitter: 'https://twitter.com/alexmorgan',
-  cvUrl: '/alex-morgan-cv.pdf',
+    "Hey — I'm Muhammad Umer. A Full Stack Developer based in San Francisco, obsessed with building products that are fast, beautiful, and delightfully intuitive. I've shipped products used by thousands of users at startups and enterprises alike. When I'm not coding, I'm exploring design systems, contributing to open source, or mentoring junior devs.",
+  location: 'Lahore, Pakistan',
+  email: 'iamumer222@gmail.com',
+  phone: '+92 327 8638832',
+  linkedin: 'https://linkedin.com/in/muhammad-umer-676a722a2/',
+  github: 'https://github.com/codedbyumer',
+  twitter: 'https://twitter.com/',
+  cvUrl: '/Muhammad Umer CV.pdf',
   yearsExperience: 5,
   availableForWork: true,
 }
@@ -150,10 +150,10 @@ export const experience = [
       'Delivered 30+ client projects across e-commerce, SaaS, and portfolio websites. Developed a reputation for clean code, fast delivery, and exceptional design quality.',
   },
   {
-    date: '2015 — 2019',
-    role: 'B.S. Computer Science',
-    company: 'MIT',
-    location: 'Cambridge, MA',
+    date: '2023 — 2027',
+    role: 'B.S. Information Technology',
+    company: 'University of Gujrat',
+    location: 'Gujrat, Pakistan',
     emoji: '🎓',
     color: 'var(--green)',
     description:

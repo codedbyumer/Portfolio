@@ -47,7 +47,12 @@ export default function About() {
               background: 'var(--surface)',
             }}
           >
-            {/* Replace with actual <img> when you have a photo */}
+            {
+            <img
+             src="/umer pic.jpeg"
+             alt="Umer"
+             className="w-full h-full object-cover"
+            />}
             <div
               className="w-full h-full flex items-center justify-center text-8xl"
               style={{ background: 'linear-gradient(135deg, var(--surface2), var(--surface))' }}
