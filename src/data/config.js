@@ -1,195 +1,151 @@
-// ============================================================
-//  PORTFOLIO CONFIG — Edit all your info here!
-//  No need to touch any component files.
-// ============================================================
-
 export const personalInfo = {
   name: 'Muhammad Umer',
-  initials: 'AM',
+  initials: 'MU',               
   tagline: 'I build things people love.',
-  description:
-    'I craft exceptional digital experiences — from pixel-perfect interfaces to robust backends. Turning complex problems into elegant, scalable solutions.',
-  about:
-    "Hey — I'm Muhammad Umer. A Full Stack Developer based in San Francisco, obsessed with building products that are fast, beautiful, and delightfully intuitive. I've shipped products used by thousands of users at startups and enterprises alike. When I'm not coding, I'm exploring design systems, contributing to open source, or mentoring junior devs.",
-  location: 'Lahore, Pakistan',
+  description: 'I craft clean, functional web apps — from pixel-perfect frontends to working backends. I love turning ideas into real, usable products.',
+  about: "Hey — I'm Muhammad Umer, a CS student at University of Gujrat doing my BS in IT (6th semester, 3.7 CGPA). I'm passionate about building real-world projects — from full-stack web apps to AI-powered tools. Currently looking for opportunities to grow and contribute.",
+  location: 'Gujranwala, Pakistan',   
   email: 'iamumer222@gmail.com',
   phone: '+92 327 8638832',
-  linkedin: 'https://linkedin.com/in/muhammad-umer-676a722a2/',
+  linkedin: 'https://www.linkedin.com/in/iammuhmmadumer/',  
   github: 'https://github.com/codedbyumer',
-  twitter: 'https://twitter.com/',
   cvUrl: '/Muhammad Umer CV.pdf',
-  yearsExperience: 5,
+  yearsExperience: 0,           
   availableForWork: true,
 }
-
+export const stats = [
+  { icon: '📦', number: 4, suffix: '+', label: 'Projects Completed' },
+  { icon: '⭐', number: 3, suffix: '.7', label: 'CGPA / 4.0' },
+  { icon: '🔥', number: 7, suffix: 'th', label: 'Semester Running' },
+]
 export const typingRoles = [
-  'Full Stack Developer',
-  'React Expert',
-  'UI/UX Creator',
+  'MERN Stack Developer',
+  'Frontend Developer',
+  'React Developer',
+  'BS IT Student',
   'Problem Solver',
+  'Project Builder',
   'Open Source Contributor',
 ]
-
 export const skillBars = [
-  { name: 'React / Next.js', percent: 95 },
-  { name: 'TypeScript', percent: 90 },
-  { name: 'Node.js / Express', percent: 88 },
-  { name: 'UI/UX Design', percent: 82 },
+  { name: 'React / Vite', percent: 78 },
+  { name: 'HTML & CSS', percent: 85 },
+  { name: 'JavaScript', percent: 75 },
+  { name: 'Node.js / Express', percent: 65 },
+  { name: 'OOP', percent: 65 },
+  { name: 'DSA', percent: 65 },
 ]
 
 export const skillCategories = [
   {
     icon: '⚡',
     title: 'Frontend',
-    tags: ['React', 'Next.js', 'TypeScript', 'JavaScript', 'Tailwind CSS', 'Framer Motion', 'GSAP'],
+    tags: ['React', 'Vite', 'JavaScript', 'HTML5', 'CSS3', 'Tailwind CSS'],
   },
   {
     icon: '🔧',
     title: 'Backend',
-    tags: ['Node.js', 'Express', 'MongoDB', 'PostgreSQL', 'Firebase', 'GraphQL', 'REST APIs'],
+    tags: ['Node.js', 'Express', 'MongoDB', 'REST APIs', 'JWT Auth'],
   },
   {
     icon: '🛠',
-    title: 'Tools & DevOps',
-    tags: ['Git', 'GitHub', 'Docker', 'AWS', 'Vercel', 'Figma', 'VS Code'],
+    title: 'Tools & AI',
+    tags: ['Git', 'GitHub', 'GROQ AI', 'Vercel', 'VS Code', 'Figma'],
   },
 ]
 
 export const projects = [
   {
-    emoji: '🛒',
-    title: 'ShopFlow',
+    emoji: '🎵',
+    title: 'Spotify Clone',
     description:
-      'E-commerce platform with real-time inventory, AI recommendations, and lightning checkout. 99.9% uptime serving 100K+ users.',
-    category: 'fullstack',
-    stack: ['React', 'Node.js', 'MongoDB', 'Stripe', 'Redis'],
-    liveUrl: 'https://shopflow.demo',
-    githubUrl: 'https://github.com/alexmorgan/shopflow',
-  },
-  {
-    emoji: '📊',
-    title: 'DataViz Pro',
-    description:
-      'Interactive analytics dashboard with 30+ chart types, custom reporting, and real-time data streaming.',
+      'A fully functional music player built with pure HTML, CSS & JavaScript. Features multiple playlists, live seekbar, volume control, real-time song timer, and a responsive hamburger sidebar. Songs load dynamically via fetch() from folder structure.',
     category: 'frontend',
-    stack: ['React', 'D3.js', 'TypeScript', 'WebSockets'],
-    liveUrl: 'https://dataviz.demo',
-    githubUrl: 'https://github.com/alexmorgan/dataviz',
+    stack: ['HTML5', 'CSS3', 'JavaScript', 'Fetch API'],
+    liveUrl: '',
+    githubUrl: 'https://github.com/codedbyumer/spotify-clone',
   },
   {
-    emoji: '🤖',
-    title: 'AI Chat Studio',
+    emoji: '📄',
+    title: 'ATS Resume Builder',
     description:
-      'Full-featured AI chat interface with conversation threading, model switching, and export capabilities.',
+      'A full-stack AI-powered resume builder with step-by-step form (Personal → Experience → Education → Skills → Projects → Certifications), live PDF preview, 3 resume templates, ATS score checker, and a Job Description Matcher — all powered by Gemini AI.',
     category: 'fullstack',
-    stack: ['Next.js', 'OpenAI API', 'Supabase', 'Tailwind'],
-    liveUrl: 'https://aichat.demo',
-    githubUrl: 'https://github.com/alexmorgan/aichat',
+    stack: ['React', 'Node.js', 'MongoDB', 'GROQ AI', 'Tailwind CSS'],
+    liveUrl: '',
+    githubUrl: 'https://github.com/codedbyumer/ats-resume-builder',
   },
   {
-    emoji: '🎨',
-    title: 'Designify',
+    emoji: '🎤',
+    title: 'Interview Prep Platform',
     description:
-      'Design system & component library with 100+ components, dark mode support, and Figma plugin.',
-    category: 'ui',
-    stack: ['React', 'Storybook', 'Figma API', 'TypeScript'],
-    liveUrl: 'https://designify.demo',
-    githubUrl: 'https://github.com/alexmorgan/designify',
-  },
-  {
-    emoji: '🏠',
-    title: 'RealEstate Pro',
-    description:
-      'Property listing platform with map integration, virtual tours, and mortgage calculator.',
+      'AI-driven interview practice platform built for Pakistani developers. Select your field (MERN, Python, DSA, etc.) and difficulty, then answer timed questions with instant Gemini AI feedback, scoring, and weak area detection. Includes progress tracking with visual charts.',
     category: 'fullstack',
-    stack: ['Next.js', 'Mapbox', 'PostgreSQL', 'AWS S3'],
-    liveUrl: 'https://realestate.demo',
-    githubUrl: 'https://github.com/alexmorgan/realestate',
+    stack: ['React', 'Node.js', 'MongoDB', 'GROQ AI', 'Tailwind CSS'],
+    liveUrl: '',
+    githubUrl: 'https://github.com/codedbyumer/interview-prep-platform',
   },
   {
-    emoji: '💜',
-    title: 'Pulse Social',
+    emoji: '📚',
+    title: 'StudyFlow',
     description:
-      'Real-time social platform with live feeds, stories, and end-to-end encrypted messaging.',
-    category: 'fullstack',
-    stack: ['React', 'Socket.io', 'Firebase', 'Node.js'],
-    liveUrl: 'https://pulse.demo',
-    githubUrl: 'https://github.com/alexmorgan/pulse',
+      'A student productivity dashboard with rich note-taking (tagged notes, live editor), task manager with priority levels & due dates, weekly study insights with charts, a Cyber Tips section, and a study streak tracker — all in a clean dark UI.',
+    category: 'frontend',
+    stack: ['React', 'Vite', 'Tailwind CSS', 'Recharts'],
+    liveUrl: '',
+    githubUrl: 'https://github.com/codedbyumer/StudyFlow',
   },
 ]
-
 export const experience = [
   {
-    date: '2022 — Present',
-    role: 'Senior Full Stack Engineer',
-    company: 'Stripe',
-    location: 'San Francisco, CA',
+    date: 'May 2025 — Sep 2025',
+    role: 'Junior Stack Engineer',
+    company: 'Xoft Zone',
+    location: 'Remote',
     emoji: '🏢',
     color: 'var(--accent)',
     description:
-      'Led development of core payment infrastructure serving 50M+ transactions. Rebuilt the merchant dashboard in React, reducing load time by 60%. Mentored a team of 4 junior engineers.',
+      'Delivered 2+ client projects across SaaS, and portfolio websites. Developed a reputation for clean code, fast delivery, and exceptional design quality.',
+  
   },
-  {
-    date: '2020 — 2022',
-    role: 'Frontend Engineer',
-    company: 'Y Combinator Startup',
-    location: 'Remote',
-    emoji: '🚀',
-    color: 'var(--accent3)',
-    description:
-      'Built the entire frontend from scratch using React and TypeScript. Implemented a real-time collaboration feature used by 10,000+ daily active users. Shipped 3 major product launches.',
-  },
-  {
-    date: '2019 — 2020',
-    role: 'Freelance Developer & Designer',
-    company: 'Self-employed',
-    location: 'Worldwide',
-    emoji: '💼',
-    color: 'var(--accent2)',
-    description:
-      'Delivered 30+ client projects across e-commerce, SaaS, and portfolio websites. Developed a reputation for clean code, fast delivery, and exceptional design quality.',
-  },
-  {
-    date: '2023 — 2027',
-    role: 'B.S. Information Technology',
+{
+    date: '2023 — Present',
+    role: 'BS Information Technology (6th Semester)',
     company: 'University of Gujrat',
     location: 'Gujrat, Pakistan',
     emoji: '🎓',
     color: 'var(--green)',
-    description:
-      'Graduated with Honors. Specialization in Human-Computer Interaction and Distributed Systems. Won 2 hackathons. Co-founded the university Web Dev Club.',
+    description: 'Currently in 6th semester with a CGPA of 3.7/4.0. Focused on web development, software engineering, and building real-world projects alongside coursework.',
   },
+  {
+    date: '2024 — Present',
+    role: 'Self-taught Developer',
+    company: 'Personal Projects',
+    location: 'Gujranwala, Pakistan',
+    emoji: '💻',
+    color: 'var(--accent)',
+    description: 'Built 4+ full-stack and frontend projects including a Spotify clone, ATS resume builder, interview prep platform, and a student productivity app. Focused on learning by building.',
+  },
+
 ]
 
-export const stats = [
-  { icon: '📦', number: 80, suffix: '+', label: 'Projects Completed' },
-  { icon: '😊', number: 50, suffix: '+', label: 'Happy Clients' },
-  { icon: '⭐', number: 5, suffix: '+', label: 'Years Experience' },
-  { icon: '🔥', number: 1200, suffix: '+', label: 'GitHub Contributions' },
-]
 
 export const testimonials = [
   {
-    text: "Alex delivered our product redesign in record time and the quality was absolutely stunning. The attention to detail, the animations, the performance — everything was beyond our expectations. Our user engagement went up 40%.",
-    name: 'Sarah Richardson',
-    role: 'CPO at Nexus AI',
-    initials: 'SR',
+    text: "Umer delivered our product redesign in record time and the quality was absolutely stunning. The attention to detail, the animations, the performance — everything was beyond our expectations. Our user engagement went up 40%.",
+    name: 'Mohsin Ali',
+    role: 'CEO at Xoft Zone',
+    initials: 'MA',
     gradient: 'linear-gradient(135deg, #7c6dfa, #a855f7)',
   },
   {
-    text: "Exceptional full-stack developer. Built our entire SaaS platform from scratch — clean architecture, beautiful UI, and shipped ahead of schedule. Alex thinks like a product person, not just an engineer.",
-    name: 'James Keller',
-    role: 'Founder at Launchpad',
-    initials: 'JK',
+    text: "Exceptional full-stack developer. Built our entire SaaS platform from scratch — clean architecture, beautiful UI, and shipped ahead of schedule. Umer thinks like a product person, not just an engineer.",
+    name: 'Ahmad Raza',
+    role: 'Founder at Mian Brothers',
+    initials: 'AR',
     gradient: 'linear-gradient(135deg, #06b6d4, #7c6dfa)',
   },
-  {
-    text: "We've worked with many developers, but Alex stands out. The code quality is impeccable, communication is top-tier, and the creative problem solving is something rare. Will definitely hire again.",
-    name: 'Maria Lopes',
-    role: 'VP Engineering at FlowBase',
-    initials: 'ML',
-    gradient: 'linear-gradient(135deg, #10d97a, #06b6d4)',
-  },
+
 ]
 
 // EmailJS config — get free keys at emailjs.com

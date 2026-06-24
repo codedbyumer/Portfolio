@@ -26,7 +26,7 @@ const contactItems = [
   {
     icon: 'in',
     label: 'LinkedIn',
-    value: 'linkedin.com/in/alexmorgan',
+    value: 'linkedin.com/in/Muhammad Umer',
     href: personalInfo.linkedin,
   },
 ]
