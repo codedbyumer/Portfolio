@@ -1,7 +1,7 @@
 
-# 🚀 Alex Morgan — Premium Developer Portfolio
+# Muhammad Umer Portfolio
 
-A world-class, production-ready developer portfolio built with **React + Vite + Tailwind CSS + Framer Motion**.
+A portfolio built with **React + Vite + Tailwind CSS + Framer Motion**.
 
 ---
 
@@ -25,7 +25,7 @@ portfolio/
 │   │   ├── Contact.jsx         ← EmailJS contact form
 │   │   └── Footer.jsx
 │   ├── data/
-│   │   └── config.js           ← ✏️ ALL YOUR CONTENT LIVES HERE
+│   │   └── config.js           ← ✏️ ALL MY CONTENT LIVES HERE
 │   ├── hooks/
 │   │   ├── useCursor.js
 │   │   ├── useScrollProgress.js
@@ -44,7 +44,7 @@ portfolio/
 
 ---
 
-## ✏️ How to Customize Your Info
+## ✏️ How to Customize Info If you need my portfolio
 
 **Everything is in one file: `src/data/config.js`**
 
