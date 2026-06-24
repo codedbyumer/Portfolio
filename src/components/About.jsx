@@ -73,14 +73,7 @@ export default function About() {
               backdropFilter: 'blur(20px)',
             }}
           >
-            <div
-              className="font-syne font-extrabold text-4xl grad-text leading-none"
-            >
-              {personalInfo.yearsExperience}+
-            </div>
-            <div className="text-xs mt-1" style={{ color: 'var(--text2)' }}>
-              Years Experience
-            </div>
+            
           </motion.div>
         </motion.div>
 
