@@ -3,14 +3,13 @@ export const personalInfo = {
   initials: 'MU',               
   tagline: 'I build things people love.',
   description: 'I craft clean, functional web apps — from pixel-perfect frontends to working backends. I love turning ideas into real, usable products.',
-  about: "Hey — I'm Muhammad Umer, a CS student at University of Gujrat doing my BS in IT (6th semester, 3.7 CGPA). I'm passionate about building real-world projects — from full-stack web apps to AI-powered tools. Currently looking for opportunities to grow and contribute.",
+  about: "Hey — I'm Muhammad Umer, a CS student at University of Gujrat doing my BS in IT (7th semester, 3.7 CGPA). I'm passionate about building real-world projects — from full-stack web apps to AI-powered tools. Currently looking for opportunities to grow and contribute.",
   location: 'Gujranwala, Pakistan',   
   email: 'iamumer222@gmail.com',
   phone: '+92 327 8638832',
   linkedin: 'https://www.linkedin.com/in/iammuhmmadumer/',  
   github: 'https://github.com/codedbyumer',
-  cvUrl: '/Muhammad Umer CV.pdf',
-  yearsExperience: 0,           
+  cvUrl: '/Muhammad Umer CV.pdf',          
   availableForWork: true,
 }
 export const stats = [
@@ -92,22 +91,12 @@ export const projects = [
       'A student productivity dashboard with rich note-taking (tagged notes, live editor), task manager with priority levels & due dates, weekly study insights with charts, a Cyber Tips section, and a study streak tracker — all in a clean dark UI.',
     category: 'frontend',
     stack: ['React', 'Vite', 'Tailwind CSS', 'Recharts'],
-    liveUrl: '',
+    liveUrl: 'https://study-flow-knukkj59m-codedbyumers-projects.vercel.app/',
     githubUrl: 'https://github.com/codedbyumer/StudyFlow',
   },
 ]
 export const experience = [
-  {
-    date: 'May 2025 — Sep 2025',
-    role: 'Junior Stack Engineer',
-    company: 'Xoft Zone',
-    location: 'Remote',
-    emoji: '🏢',
-    color: 'var(--accent)',
-    description:
-      'Delivered 2+ client projects across SaaS, and portfolio websites. Developed a reputation for clean code, fast delivery, and exceptional design quality.',
   
-  },
 {
     date: '2023 — Present',
     role: 'BS Information Technology (6th Semester)',
@@ -131,13 +120,7 @@ export const experience = [
 
 
 export const testimonials = [
-  {
-    text: "Umer delivered our product redesign in record time and the quality was absolutely stunning. The attention to detail, the animations, the performance — everything was beyond our expectations. Our user engagement went up 40%.",
-    name: 'Mohsin Ali',
-    role: 'CEO at Xoft Zone',
-    initials: 'MA',
-    gradient: 'linear-gradient(135deg, #7c6dfa, #a855f7)',
-  },
+
   {
     text: "Exceptional full-stack developer. Built our entire SaaS platform from scratch — clean architecture, beautiful UI, and shipped ahead of schedule. Umer thinks like a product person, not just an engineer.",
     name: 'Ahmad Raza',
@@ -154,3 +137,4 @@ export const emailjsConfig = {
   templateId: 'YOUR_TEMPLATE_ID',
   publicKey: 'YOUR_PUBLIC_KEY',
 }
+
