@@ -42,39 +42,14 @@ export default function About() {
         >
           <div
             className="w-full rounded-3xl overflow-hidden relative"
-            style={{
-              aspectRatio: '4/5',
-              background: 'var(--surface)',
-            }}
+            style={{ aspectRatio: '4/5', background: 'var(--surface)' }}
           >
-            {
             <img
-             src="/umer pic.jpeg"
-             alt="Umer"
-             className="w-full h-full object-cover"
-            />}
-            <div
-              className="w-full h-full flex items-center justify-center text-8xl"
-              style={{ background: 'linear-gradient(135deg, var(--surface2), var(--surface))' }}
-            >
-              👨‍💻
-            </div>
+              src="/umer pic.jpeg"
+              alt="Muhammad Umer"
+              className="w-full h-full object-cover"
+            />
           </div>
-
-          {/* Experience badge */}
-          <motion.div
-            initial={{ opacity: 0, scale: 0.8 }}
-            animate={inView ? { opacity: 1, scale: 1 } : {}}
-            transition={{ duration: 0.5, delay: 0.4 }}
-            className="absolute -bottom-4 -right-4 p-5 rounded-2xl"
-            style={{
-              background: 'var(--surface)',
-              border: '1px solid var(--border2)',
-              backdropFilter: 'blur(20px)',
-            }}
-          >
-            
-          </motion.div>
         </motion.div>
 
         {/* Content column */}
@@ -93,7 +68,6 @@ export default function About() {
             {personalInfo.about}
           </p>
 
-          {/* Skill bars */}
           <div className="mt-8">
             {skillBars.map((skill, i) => (
               <SkillBar
