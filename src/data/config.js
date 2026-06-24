@@ -99,12 +99,12 @@ export const experience = [
   
 {
     date: '2023 — Present',
-    role: 'BS Information Technology (6th Semester)',
+    role: 'BS Information Technology (7th Semester)',
     company: 'University of Gujrat',
     location: 'Gujrat, Pakistan',
     emoji: '🎓',
     color: 'var(--green)',
-    description: 'Currently in 6th semester with a CGPA of 3.7/4.0. Focused on web development, software engineering, and building real-world projects alongside coursework.',
+    description: 'Currently in 7th semester with a CGPA of 3.7/4.0. Focused on web development, software engineering, and building real-world projects alongside coursework.',
   },
   {
     date: '2024 — Present',
